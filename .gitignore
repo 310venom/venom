@@ -38,6 +38,7 @@ node_modules
 .cache-loader
 /dist/
 /www/
+/tmp/*
 *.DS_Store
 
 # for copy to live-japan-pc-dist
