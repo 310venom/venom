@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+//------------------------ basic parts ------------------------//
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contents {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
+.nav {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-item {
+    padding: 24px;
+    background: #f5f5f5;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 0.3s;
+    &:hover {
+      background: #dcdcdc;
+    }
+    &.is-active {
+      background: #dcdcdc;
+      cursor: default;
+    }
+  }
+}
+
+.block {
+  display: none;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 49%;
+}
+
+@media screen and (max-width: 500px) {
+  .item {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+extend ../layout/default
+
+block page_data
+  - var siteTitle = ""
+  - var description = ""
+  - var keywords = ""
+  - var siteUrl = ""
+
+block body
+  .contents
+    h1 310's Tweet Storage
+    p
+    |動画付きツイートを抽出してまとめたものです。手動更新。
+    br
+    |スマフォでも見れますが、ツイート一つ一つに読み込みが発生しているので閲覧はPC推奨。
+    br
+    |（全て表示すると1度の読み込みで30Mを超えます）
+    nav.nav
+      ul.nav-list
+        li.nav-item.js-tab-item(data-genre="GGXrd") GGXrd
+        li.nav-item.js-tab-item(data-genre="DBFZ") DBFZ
+        li.nav-item.js-tab-item(data-genre="others") others
+    for data in tweet
+      .block.js-tab-cont(data-genre=data.genre)
+        .list
+          for item in data.list
+            .item
+              blockquote(class="twitter-tweet" data-lang="ja")
+                a(href="https://twitter.com/310_progressive/status/" + item + "?ref_src=twsrc%5Etfw")
+
+  script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
