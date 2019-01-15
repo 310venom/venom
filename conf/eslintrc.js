@@ -20,5 +20,8 @@ module.exports = {
     'consistent-return': 0,
     'no-magic-numbers': 0,
     'prefer-arrow-callback': 0,
+    //jsx記法でエラーが出ないようにする
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
   },
 };
