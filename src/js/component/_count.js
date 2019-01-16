@@ -1,9 +1,9 @@
 import Vue from 'vue'
-import Count from './_count'
+import Count from './_count.vue'
 
 export default () => {
   new Vue({
-    el: '#app',
+    el: '#counter',
     render: h => h(Count),
   })
 }

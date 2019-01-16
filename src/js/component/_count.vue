@@ -2,6 +2,7 @@
   <div class="counter">
     <ul class="player">
       <li>
+        <p class="name">あなた</p>
         <p class="count">{{ myCount }}</p>
         <div class="button-list">
           <button class="button red" type="button" v-on:click="myCountDown">-1</button>
@@ -9,6 +10,7 @@
         </div>
       </li>
       <li>
+        <p class="name">相手</p>
         <p class="count">{{ oppCount }}</p>
         <div class="button-list">
           <button class="button red" type="button" v-on:click="oppCountDown">-1</button>

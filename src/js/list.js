@@ -1,1 +1,3 @@
-require('./component/_tab')()
+import toggleTab from './component/_toggleTab'
+
+toggleTab()

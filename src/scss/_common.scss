@@ -14,46 +14,8 @@
   flex-grow: 1;
 }
 
-.nav {
-  &-list {
-    display: flex;
-    justify-content: space-between;
-  }
-  &-item {
-    padding: 24px;
-    background: #f5f5f5;
-    cursor: pointer;
-    flex-grow: 1;
-    text-align: center;
-    transition: all 0.3s;
-    &:hover {
-      background: #dcdcdc;
-    }
-    &.is-active {
-      background: #dcdcdc;
-      cursor: default;
-    }
-  }
-}
-
-.block {
-  display: none;
-}
-
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.item {
-  width: 49%;
-}
-
-@media screen and (max-width: 500px) {
-  .item {
-    width: 100%;
-  }
+.link {
+  text-decoration: underline;
 }
 
 //------------------------ parts ------------------------//
@@ -80,4 +42,10 @@
   padding: 24px;
   border: solid 1px #f5f5f5;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .textarea {
+    padding: 8px;
+  }
 }

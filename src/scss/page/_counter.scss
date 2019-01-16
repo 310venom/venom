@@ -9,13 +9,35 @@
 .player {
   display: flex;
   justify-content: space-around;
+  position: relative;
+
+  &:before {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: 'VS';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 30px;
+  }
 
   li {
     min-width: 35%;
+    padding: 8px;border: solid 1px #dcdcdc;
   }
 
   .count {
     text-align: center;
+    font-size: 24px;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 20px;
   }
 }
 
@@ -28,8 +50,20 @@
 .result {
   margin-top: 24px;
   textarea {
-    width: 100%;
-    padding: 24px;
     resize: none;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .player {
+    justify-content: space-between;
+    li {
+      width: 40%;
+    }
+  }
+
+  .button-list {
+    margin-top: 8px;
   }
 }
