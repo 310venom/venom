@@ -26,14 +26,16 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="contents">
-        <h1>INDEX</h1>
-        <ul>
-          <li><a class="link" href="list.html">動画付きtweetリスト</a></li>
-          <li><a class="link" href="counter.html">戦績カウンター</a></li>
-        </ul>
+      <div class="contents storage">
+        <div class="title">
+          <h1>310's Tweet Storage</h1>
+          <p></p>動画付きツイートを抽出してまとめたものです。手動更新。<br>スマフォでも見れますが、ツイート一つ一つに読み込みが発生しているので閲覧はPC推奨。<br>（全て表示すると1度の読み込みで30Mを超えます）
+        </div>
+        <div id="tab"></div>
       </div>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <script src="js/common.js"></script>
+    <script src="js/list.js"></script>
   </body>
 </html>

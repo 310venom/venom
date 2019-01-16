@@ -5,12 +5,10 @@ block page_data
   - var description = ""
   - var keywords = ""
   - var siteUrl = ""
+  - var js_src = "counter"
+  - var css_src = "counter"
 
 block body
   .contents
-    h1 INDEX
-    ul
-      li
-        a.link(href="list.html") 動画付きtweetリスト
-      li
-        a.link(href="counter.html") 戦績カウンター
+    h1 戦績カウンター
+    #counter

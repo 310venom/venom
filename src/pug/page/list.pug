@@ -1,0 +1,23 @@
+extend ../layout/default
+
+block page_data
+  - var siteTitle = ""
+  - var description = ""
+  - var keywords = ""
+  - var siteUrl = ""
+  - var js_src = "list"
+
+block body
+  .contents.storage
+    .title
+      h1 310's Tweet Storage
+      p
+      |動画付きツイートを抽出してまとめたものです。手動更新。
+      br
+      |スマフォでも見れますが、ツイート一つ一つに読み込みが発生しているので閲覧はPC推奨。
+      br
+      |（全て表示すると1度の読み込みで30Mを超えます）
+
+    #tab
+
+  script(async src="https://platform.twitter.com/widgets.js" charset="utf-8")
