@@ -1,6 +1,16 @@
+
 {
   "name": "PWA Test",
   "short_name": "PWA",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
   "display": "standalone",
-  "start_url": "./venom/"
+  "start_url": "https://310venom.github.io/venom/",
+  "icons": [
+    {
+      "src": "./img/icon_info.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
 }

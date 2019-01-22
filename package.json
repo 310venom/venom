@@ -9,7 +9,7 @@
     "build:html": "bin/build_html.sh",
     "build:css": "bin/build_css.sh",
     "build:js": "bin/build_js.sh",
-    "build:image": "bin/build_image.sh",
+    "build:image": "imagemin src/img/* --out-dir docs/img",
     "build:static": "cp src/static/* docs/",
     "build": "bin/build.sh",
     "sprite": "bin/build_sprite.sh",
