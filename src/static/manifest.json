@@ -1,11 +1,11 @@
 
 {
-  "name": "PWA Test",
-  "short_name": "PWA",
+  "name": "勝敗カウンター",
+  "short_name": "勝敗カウンター",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "start_url": "./",
+  "start_url": "./counter.html",
   "icons": [
     {
       "src": "./img/test.png",
