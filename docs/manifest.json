@@ -1,11 +1,11 @@
 
 {
-  "name": "PWA Test",
-  "short_name": "PWA",
+  "name": "versus counter",
+  "short_name": "versus counter",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "start_url": "https://310venom.github.io/venom/",
+  "start_url": "./counter.html",
   "icons": [
     {
       "src": "./img/test.png",

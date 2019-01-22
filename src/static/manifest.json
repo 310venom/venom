@@ -1,8 +1,9 @@
 
 {
-  "name": "勝敗カウンター",
-  "short_name": "勝敗カウンター",
+  "name": "versus counter",
+  "short_name": "versus counter",
   "theme_color": "#2196f3",
+  "background_color": "#2196f3",
   "display": "standalone",
   "start_url": "./counter.html",
   "icons": [
