@@ -4,8 +4,14 @@ const CACHE_NAME = 'pwa-test';
 const urlsToCache = [
   './',
   './index.html',
-  './counter.html',
+  './counter/index.html',
+  './vesus/index.html',
   './css/style.css',
+  './js/common.css',
+  './js/common.css',
+  './js/list.css',
+  './js/counter.css',
+  './js/versus.css'
 ];
 
 self.addEventListener('install', (event) => {
