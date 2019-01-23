@@ -22,21 +22,17 @@
     <meta property="twitter:image">
     <meta property="twitter:url">
     <link rel="canonical" href="">
-    <link rel="manifest" href="./manifest.json">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <div class="wrapper">
-      <div class="contents storage">
-        <div class="title">
-          <h1>310's Tweet Storage</h1>
-          <p></p>動画付きツイートを抽出してまとめたものです。手動更新。<br>スマフォでも見れますが、ツイート一つ一つに読み込みが発生しているので閲覧はPC推奨。<br>（全て表示すると1度の読み込みで30Mを超えます）
-        </div>
-        <div id="tab"></div>
+      <div class="contents">
+        <h1 class="title">勝敗リスト</h1>
+        <div id="versus"></div>
       </div>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
-    <script src="js/common.js"></script>
-    <script src="js/list.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/versus.js"></script>
   </body>
 </html>

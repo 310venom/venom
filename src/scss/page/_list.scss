@@ -3,7 +3,7 @@
 //------------------------ for list ------------------------//
 
 .storage {
-  .title {
+  .heading {
     padding: 24px;
   }
 }
@@ -42,8 +42,8 @@
 
 @media screen and (max-width: 768px) {
   .storage {
-    .title {
-      padding: 16px;
+    .heading {
+      padding: 0;
     }
   }
 

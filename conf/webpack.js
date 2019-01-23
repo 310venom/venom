@@ -6,7 +6,8 @@ module.exports = {
   entry: { //ビルドするファイル
     common: './src/js/common.js',
     list: './src/js/list.js',
-    counter: './src/js/counter.js'
+    counter: './src/js/counter.js',
+    versus: './src/js/versus.js'
   },
   output: {
     path: path.join(__dirname, '/../docs/js'), //ビルドしたファイルを吐き出す場所(絶対パス)

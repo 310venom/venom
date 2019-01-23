@@ -19,7 +19,7 @@
       </li>
     </ul>
     <div class="result">
-      <textarea name="text" class="textarea">現在の戦績 : {{ myCount }} - {{ oppCount }}</textarea>
+      <p>現在の戦績 : {{ myCount }} - {{ oppCount }}</p>
     </div>
   </div>
 </template>

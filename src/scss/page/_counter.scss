@@ -3,7 +3,7 @@
 //------------------------ for counter ------------------------//
 
 .counter {
-  padding: 24px;
+  // padding: 16px;
 }
 
 .player {
@@ -49,21 +49,24 @@
 
 .result {
   margin-top: 24px;
-  textarea {
-    resize: none;
-    font-size: 24px;
-  }
+  font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
   .player {
-    justify-content: space-between;
+    flex-direction: column;
     li {
-      width: 40%;
+      width: 100%;
+    }
+    li + li {
+      margin-top: 40px;
     }
   }
 
   .button-list {
     margin-top: 8px;
+    .button {
+      width: 120px;
+    }
   }
 }

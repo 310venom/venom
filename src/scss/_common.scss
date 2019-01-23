@@ -18,6 +18,12 @@
   text-decoration: underline;
 }
 
+.align {
+  &-center {
+    text-align: center;
+  }
+}
+
 //------------------------ parts ------------------------//
 
 .button {
@@ -29,10 +35,10 @@
   color: #fff;
 
   &.blue {
-    background: #77a4ff;
+    background: #1d4293;
   }
   &.red {
-    background: #ff7786;
+    background: #b80117;
   }
 }
 
@@ -45,6 +51,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+  }
+  .contents {
+    padding: 16px;
+  }
   .textarea {
     padding: 8px;
   }
