@@ -8,6 +8,7 @@ html(lang=ja)
       //- include ../include/footer
 
     //- scripts
-    script(src='/js/common.js')
+    - var path = (isIndex) ? '' : '../';
+    script(src= path + 'js/common.js')
     if(js_src)
-      script(src='/js/' + js_src + '.js')
+      script(src= path + 'js/' + js_src + '.js')
