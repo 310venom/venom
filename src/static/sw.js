@@ -2,16 +2,13 @@
 const CACHE_NAME = 'pwa-test';
 // Cache targets
 const urlsToCache = [
-  './',
-  './index.html',
-  './counter/index.html',
-  './vesus/index.html',
-  './css/style.css',
-  './js/common.css',
-  './js/common.css',
-  './js/list.css',
-  './js/counter.css',
-  './js/versus.css'
+  'https://310venom.github.io/venom/',
+  'https://310venom.github.io/venom/counter/',
+  'https://310venom.github.io/venom/versus/',
+  'https://310venom.github.io/venom/css/style.css',
+  'https://310venom.github.io/venom/js/common.js',
+  'https://310venom.github.io/venom/js/counter.js',
+  'https://310venom.github.io/venom/js/versus.js'
 ];
 
 self.addEventListener('install', (event) => {
