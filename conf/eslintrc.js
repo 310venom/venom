@@ -18,6 +18,7 @@ module.exports = {
     'no-console': 1,
     'no-unused-vars': 1,
     'no-invalid-this': 0,
+    'no-param-reassign': 0,
     'consistent-return': 0,
     'no-magic-numbers': 0,
     'prefer-arrow-callback': 0,
