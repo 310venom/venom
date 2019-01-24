@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').then((registration) => {
+  navigator.serviceWorker.register('https://310venom.github.io/venom/sw.js').then((registration) => {
     // 登録成功
     registration.onupdatefound = () => {
       console.log('アップデートがあります！')
